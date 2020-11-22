@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>play</class>
+ <widget class="QDialog" name="play">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>741</width>
+    <height>463</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>247</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>247</x>
+     <y>0</y>
+     <width>247</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>picture/medium_final.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>494</x>
+     <y>0</y>
+     <width>247</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>picture/hard_final.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_easy">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>247</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_easy{
+	background-color:transparent;
+	}
+QPushButton#pushButton_easy:hover{
+	/*background-color: rgba(0,255,255,0.2);*/
+    background-color:rgba(189, 0, 0, 0.2);
+	border-width: 3px;
+	border-style:solid;
+	border-color:white;
+	border-radius:4px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_normal">
+   <property name="geometry">
+    <rect>
+     <x>247</x>
+     <y>0</y>
+     <width>247</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:transparent;
+	}
+QPushButton:hover{
+	/*background-color: rgba(0,255,255,0.2);*/
+	background-color: rgba(255, 128, 1, 0.2);	
+	border-width: 3px;
+	border-style:solid;
+	border-color:white;
+	border-radius:4px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_hard">
+   <property name="geometry">
+    <rect>
+     <x>494</x>
+     <y>0</y>
+     <width>247</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:transparent;
+	}
+QPushButton:hover{
+	background-color: rgba(0,255,255,0.2);
+	border-width: 3px;
+	border-style:solid;
+	border-color:white;
+	border-radius:4px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

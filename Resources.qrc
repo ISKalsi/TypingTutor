@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/data">
+        <file>data/Easy.txt</file>
+        <file>data/Hard.txt</file>
+        <file>data/Medium.txt</file>
+        <file>data/practice.txt</file>
+    </qresource>
+    <qresource prefix="/imgs">
+        <file>pictures/easy_final.jpg</file>
+        <file>pictures/easy_hscore.jpg</file>
+        <file>pictures/easy.jpg</file>
+        <file>pictures/hard_final.jpg</file>
+        <file>pictures/hard_hscore.jpg</file>
+        <file>pictures/hard.jpg</file>
+        <file>pictures/keyboard.jpg</file>
+        <file>pictures/main.png</file>
+        <file>pictures/main2.png</file>
+        <file>pictures/main3.png</file>
+        <file>pictures/main4.png</file>
+        <file>pictures/medium_final.jpg</file>
+        <file>pictures/medium_hscore.jpg</file>
+        <file>pictures/medium.jpg</file>
+        <file>pictures/practice.png</file>
+        <file>pictures/practice2.png</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>music/buzzer.mp3</file>
+        <file>music/correct.mp3</file>
+        <file>music/wow.mp3</file>
+        <file>music/wrong.mp3</file>
+    </qresource>
+</RCC>

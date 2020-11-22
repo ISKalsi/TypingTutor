@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1371</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>pictures/main4.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>120</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton {
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 50px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton:hover {
+  background-color: transparent;
+  /*color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.545, y2:0.0738636, stop:0.198864 rgba(76, 85, 194, 255), stop:1 rgba(0, 0, 127, 255));*/
+
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.506, y2:0, stop:0.0795455 rgba(73, 146, 212, 255), stop:0.943182 rgba(170, 255, 255, 255));
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>PLAY!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>220</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_2 {
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 50px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_2:hover {
+  background-color: transparent;
+  /*color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.545, y2:0.0738636, stop:0.198864 rgba(76, 85, 194, 255), stop:1 rgba(0, 0, 127, 255));*/
+
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.506, y2:0, stop:0.0795455 rgba(73, 146, 212, 255), stop:0.943182 rgba(170, 255, 255, 255));
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>PRACTICE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>320</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_3 {
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 50px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_3:hover {
+  background-color: transparent;
+  /*color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.545, y2:0.0738636, stop:0.198864 rgba(76, 85, 194, 255), stop:1 rgba(0, 0, 127, 255));*/
+
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.506, y2:0, stop:0.0795455 rgba(73, 146, 212, 255), stop:0.943182 rgba(170, 255, 255, 255));
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>HELP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>520</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_4 {
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 50px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_4:hover {
+  background-color: transparent;
+  /*color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.545, y2:0.0738636, stop:0.198864 rgba(76, 85, 194, 255), stop:1 rgba(0, 0, 127, 255));*/
+
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.506, y2:0, stop:0.0795455 rgba(73, 146, 212, 255), stop:0.943182 rgba(170, 255, 255, 255));
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>420</y>
+      <width>331</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_5 {
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 50px;
+  margin: 4px 2px;
+  background-color: transparent; 
+  color: white; 
+ 
+
+}
+
+QPushButton#pushButton_5:hover {
+  background-color: transparent;
+  /*color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.545, y2:0.0738636, stop:0.198864 rgba(76, 85, 194, 255), stop:1 rgba(0, 0, 127, 255));*/
+
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.506, y2:0, stop:0.0795455 rgba(73, 146, 212, 255), stop:0.943182 rgba(170, 255, 255, 255));
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>HIGHSCORE</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

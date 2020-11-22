@@ -1,0 +1,30 @@
+Class is similar to structure.
+Different classe can have same name.
+Template creates family of classes.
+STL is large and complex.
+STL is part of standard C++ library.
+Iterators behave like pointer.
+List is a container in C++.
+Map is also called associative array.
+String is sequence of characters.
+Nesting of namespace is possible.
+Constructor may be declared explicit.
+New header file have been added.
+C++ supports idea of reusability.
+Overloaded operator functions can be invoked.
+Concatenation of two strings.
+Destructor destroys objects.
+Complex isn't a data type.
+Structure donot permit data hiding.
+Manipulators format the data display.
+Union members share common memory space.
+Keywords implements specific features.
+C++ program is written using tokens.
+Visual C++ is a Microsoft application.
+Function objects are often used as arguments.
+Vector containers support random iterators.
+Catch handler can also throw exception.
+Ofstream provides output operation.
+File is collection of related data.
+showpoint donot have bit fields.
+ostream is member function of get().
