@@ -90,7 +90,16 @@ border-radius:5px;
 color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
-    <string>Click here and Press CTRL key to Practice.</string>
+    <string extracomment="Click here and Press CTRL key to Practice."/>
+   </property>
+   <property name="maxLength">
+    <number>35</number>
+   </property>
+   <property name="cursorPosition">
+    <number>0</number>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QLabel" name="stopwatch">
@@ -114,7 +123,7 @@ color: rgb(255, 255, 255);</string>
     <string notr="true">color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
-    <string>120</string>
+    <string/>
    </property>
   </widget>
   <widget class="QLabel" name="letters">

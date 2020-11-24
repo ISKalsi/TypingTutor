@@ -2,7 +2,7 @@
 #define HIGHSCORE_H
 
 #include <QDialog>
-#include"QFile"
+#include "QFile"
 
 namespace Ui {
 class highscore;
@@ -15,9 +15,8 @@ class highscore : public QDialog
 public:
     explicit highscore(QWidget *parent = nullptr);
     ~highscore();
+
 private slots:
-
-
     void on_tabWidget_tabBarClicked(int index );
 
 private:

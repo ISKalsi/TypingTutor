@@ -27,10 +27,6 @@ easy::easy(QWidget *parent) :
         QPixmap pix1(":/imgs/pictures/easy");
         ui->label->setPixmap(pix1);
         connect(ui->textBrowser,SIGNAL(textChanged()),this,SLOT(stopwatch()));
-       //connect(ui->textBrowser,SIGNAL(textChanged()),this,SLOT(timer()));
-       // connect(QMessageBox,SIGNAL(buttonClicked()),this,SLOT(Box()));
-
-
     }
 
 easy::~easy()
